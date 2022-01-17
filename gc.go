@@ -9,7 +9,7 @@ func printStats(mem runtime.MemStats) {
 
 	runtime.ReadMemStats(&mem)
 	fmt.Println("mem.Alloc:", mem.Alloc)
-	fmt.Println("mem.TotalAloc:", mem.TotalAlloc)
+	fmt.Println("mem.TotalAlocate:", mem.TotalAlloc)
 	fmt.Println("mem.NumGC:", mem.NumGC)
 	fmt.Println("--------")
 
